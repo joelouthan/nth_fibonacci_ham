@@ -4,7 +4,7 @@ use primitive_types::U256;
 fn main() {
     let mut n = String::new();
 
-    println!("Enter a number:");
+    println!("Enter a number:"); // for the record, 370 is the max for U256 output
 
     io::stdin().read_line(&mut n)
         .expect("Failed to read line");
